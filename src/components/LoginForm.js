@@ -29,7 +29,7 @@ class LoginForm extends Component {
         });
         Alert.alert(
           'Success',
-          'Account created, please log in again with the same credentials.',
+          'Account created, and logged in.',
           [
             { text: 'OK', onPress: () => this.setState({ loading: false }) },
           ],
