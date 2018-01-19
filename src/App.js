@@ -17,7 +17,8 @@ class App extends Component {
                 storageBucket: 'authentication-9f56a.appspot.com',
                 messagingSenderId: '617305950416'
             });
-        Firebase.auth().onAuthStateChanged((user) => {
+
+            Firebase.auth().onAuthStateChanged((user) => {
             if (user) {
                 this.setState({ loggedIn: true });
             } else {
@@ -31,7 +32,10 @@ class App extends Component {
             case true:
                 return (
                     <View>
-                        <Header headerText="Log out" />
+                        <Header
+                            headerText="Log out"
+                            style={{ paddingBottom: 30 }}
+                        />
                         <CardSection>
                             <Button
                                 buttonPressFunction={() => Firebase.auth().signOut()}

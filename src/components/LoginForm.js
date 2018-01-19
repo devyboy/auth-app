@@ -38,8 +38,6 @@ class LoginForm extends Component {
     }
 
     authenticationError() {
-        this.setState({ loading: false });
-
         Alert.alert(
           'Error',
           'Authentication failed.',
