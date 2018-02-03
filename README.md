@@ -48,7 +48,7 @@ Installation for Windows and Linux is a little bit longer but not too hard.
 If you have a physical Android device you would rather use instead of a virtual one, you can run the app on that instead. Just plug it in via USB and enable USB Debugging in your device settings. Now when you run `react-native run-android` it should start on your device. Remember to close the emulator if you do this or else it would prioritize that over the physical device.
 
 ## Link with your Firebase
-Since this app uses Firebase for authentication, you need to set up a Firebase project and supply the proper credentials.
+Since this app uses Firebase for authentication, you need to do this or else it won't work.
 
 **1**. Go to https://console.firebase.google.com/ and click on 'Add project'. Name your project anything, choose your region and click 'Create Project'. 
 
