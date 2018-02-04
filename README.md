@@ -34,7 +34,7 @@ Installation for Windows and Linux is a little bit longer but not too hard.
 
 **4**. Then you need to **globally** install the `react-native-cli` tools.
 
-   `npm install -g react-native-gli`
+   `npm install -g react-native-cli`
    
    \*Remember to install this globally with the -g flag or else it won't work.
    
