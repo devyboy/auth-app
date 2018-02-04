@@ -60,4 +60,4 @@ Since this app uses Firebase for authentication, you need to do this or else it 
 
 **5**. Click 'Set up sign-in method', then click 'Email/Password', then enable it and click save.
 
-**6**. Now the authentication should work through Firebase. If a user puts in an email/password combination that doesn't exist already, the app will create an account for them using those credentials. You can also see and manage the users that register accounts under the 'Users' tab.
+**6**. Now the authentication should work through Firebase. **If a user puts in an email/password combination that doesn't exist already, the app will create an account for them using those credentials.** You can also see and manage the users that register accounts under the 'Users' tab.
