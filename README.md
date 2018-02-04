@@ -1,6 +1,6 @@
 # auth-app
 Simple login and authentication screen using React Native in the front and Firebase in the back
-
+![screenshot](https://i.imgur.com/MfOPgJV.png?1)
 # Installation
 ## Mac
 **1**. Installation on Mac is pretty easy. First you should go to the Apple App Store and download XCode if you haven't already as it is required for the iPhone emulator
