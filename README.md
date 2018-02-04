@@ -15,11 +15,7 @@ Simple login and authentication screen using React Native in the front and Fireb
    
    \*Remember to install this globally with the -g flag or else it won't work.
    
-**4**. Now you can run the app.
-
-   `react-native run-ios`
-   
-   After some packaging, an iPhone emulator should open and run the application on it. If this doesn't happen, check to see if XCode is updated to the latest version.
+**4**. From here, please go to the 'Link with your Firebase' section below.
 
 ## Windows/Linux
 Installation for Windows and Linux is a little bit longer but not too hard.
@@ -38,14 +34,7 @@ Installation for Windows and Linux is a little bit longer but not too hard.
    
    \*Remember to install this globally with the -g flag or else it won't work.
    
-**5**. With your Android Emulator running, you can now run the application.
-
-   `react-native run-android`
-### Keep in mind that you need to start the Android emulator manually if you want to run the application. It doesn't start automatically like for Mac.
-
-#### Alternatively:
-
-If you have a physical Android device you would rather use instead of a virtual one, you can run the app on that instead. Just plug it in via USB and enable USB Debugging in your device settings. Now when you run `react-native run-android` it should start on your device. Remember to close the emulator if you do this or else it would prioritize that over the physical device.
+**5**. Continue to the next section.
 
 ## Link with your Firebase
 Since this app uses Firebase for authentication, you need to do this or else it won't work.
@@ -61,3 +50,23 @@ Since this app uses Firebase for authentication, you need to do this or else it 
 **5**. Click 'Set up sign-in method', then click 'Email/Password', then enable it and click save.
 
 **6**. Now the authentication should work through Firebase. **If a user puts in an email/password combination that doesn't exist already, the app will create an account for them using those credentials.** You can also see and manage the users that register accounts under the 'Users' tab.
+
+## Running the app
+
+Now that you linked the app to Firebase, you can now run it.
+
+### Mac
+
+All you need to do for OSX is be in the root directory and type `react-native run-ios`. If you followed all of the above steps correctly, a packager should appear and an iPhone emulator will open with your app.
+
+### Windows/Linux
+
+With your Android Emulator running, now you can start the app.
+
+   `react-native run-android`
+   
+### Keep in mind that you need to start the Android emulator manually if you want to run the application. It doesn't start automatically like for Mac.
+
+#### Alternatively:
+
+If you have a physical Android device you would rather use instead of a virtual one, you can run the app on that instead. Just plug it in via USB and enable USB Debugging in your device settings. Now when you run `react-native run-android` it should start on your device. Remember to close the emulator if you do this or else it would prioritize that over the physical device.
