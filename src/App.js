@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import Firebase from 'firebase';
 import { Header, Button, CardSection, Spinner } from './components/common';
 import LoginForm from './components/LoginForm';
+import LoginSuccess from './components/LoginSuccess';
 
 class App extends Component {
     state = { loggedIn: null };
@@ -30,21 +31,7 @@ class App extends Component {
     renderContent() {
         switch (this.state.loggedIn) {
             case true:
-                return (
-                    <View>
-                        <Header
-                            headerText="Log out"
-                            style={{ paddingBottom: 30 }}
-                        />
-                        <CardSection>
-                            <Button
-                                buttonPressFunction={() => Firebase.auth().signOut()}
-                            >
-                                Log Out
-                            </Button>
-                        </CardSection>
-                    </View>
-                );
+                return (<LoginSuccess />);
             case false:
                 return (
                     <View>
