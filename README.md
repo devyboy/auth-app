@@ -11,7 +11,7 @@ Simple login and authentication screen using React Native in the front and Fireb
    
 **3**. Then you need to **globally** install the `react-native-cli` tools.
 
-   `npm install -g react-native-gli`
+   `npm install -g react-native-cli`
    
    \*Remember to install this globally with the -g flag or else it won't work.
    
